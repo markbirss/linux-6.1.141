@@ -1,0 +1,13 @@
+Package: linux-headers-6.1.141
+Source: linux-upstream
+Version: 6.1.141-5
+Architecture: arm64
+Maintainer: root <root@aura>
+Installed-Size: 97968
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 6.1.141 on arm64
+ This package provides kernel header files for 6.1.141 on arm64
+ .
+ This is useful for people who need to build external modules

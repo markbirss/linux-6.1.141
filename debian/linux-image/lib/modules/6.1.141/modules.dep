@@ -1,0 +1,36 @@
+kernel/crypto/crypto_engine.ko:
+kernel/crypto/md5.ko:
+kernel/crypto/sha1_generic.ko:
+kernel/crypto/sm3.ko:
+kernel/crypto/gf128mul.ko:
+kernel/crypto/cbc.ko:
+kernel/crypto/cfb.ko:
+kernel/crypto/xts.ko:
+kernel/crypto/ctr.ko:
+kernel/crypto/gcm.ko:
+kernel/crypto/ccm.ko:
+kernel/crypto/des_generic.ko: kernel/lib/crypto/libdes.ko
+kernel/crypto/aes_generic.ko:
+kernel/crypto/sm4.ko:
+kernel/crypto/ghash-generic.ko: kernel/crypto/gf128mul.ko
+kernel/crypto/ofb.ko:
+kernel/lib/crypto/libarc4.ko:
+kernel/lib/crypto/libdes.ko:
+kernel/drivers/media/i2c/gc2053.ko:
+kernel/drivers/media/i2c/gc8613.ko:
+kernel/drivers/media/i2c/os04a10.ko:
+kernel/drivers/media/i2c/ps5458.ko:
+kernel/drivers/media/i2c/sc200ai.ko:
+kernel/drivers/media/i2c/sc3336.ko:
+kernel/drivers/media/i2c/sc401ai.ko:
+kernel/drivers/media/i2c/sc4336.ko:
+kernel/drivers/media/i2c/sc450ai.ko:
+kernel/drivers/media/i2c/sc530ai.ko:
+kernel/drivers/media/i2c/sc635hai.ko:
+kernel/drivers/media/i2c/sc850sl.ko:
+kernel/drivers/media/i2c/techpoint/techpoint.ko:
+kernel/drivers/crypto/rockchip/rkce/rk_ce.ko: kernel/drivers/crypto/rockchip/cryptodev_linux/cryptodev.ko kernel/crypto/crypto_engine.ko
+kernel/drivers/crypto/rockchip/cryptodev_linux/cryptodev.ko:
+kernel/net/ipv6/ipv6.ko:
+kernel/net/wireless/cfg80211.ko:
+kernel/net/mac80211/mac80211.ko: kernel/lib/crypto/libarc4.ko kernel/net/wireless/cfg80211.ko

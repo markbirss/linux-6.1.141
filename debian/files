@@ -1,0 +1,5 @@
+linux-headers-6.1.141_6.1.141-5_arm64.deb kernel optional
+linux-image-6.1.141-dbg_6.1.141-5_arm64.deb debug optional
+linux-image-6.1.141_6.1.141-5_arm64.deb kernel optional
+linux-libc-dev_6.1.141-5_arm64.deb devel optional
+linux-upstream_6.1.141-5_arm64.buildinfo kernel optional
