@@ -6,6 +6,8 @@ cd linux-6.1.141
 mv .git dot_git
 make rv1126b_luckfox_defconfig; \
 #make menuconfig
+make -j4;
+#make -j4 Image modules modules_install;
 make -j4 Image; \
 make -j4 modules_prepare; \
 make -j4 modules; \
