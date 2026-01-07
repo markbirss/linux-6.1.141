@@ -1,6 +1,8 @@
 # linux-6.1.141
 
 ```
+sudo apt -y update; sudo apt install build-essential libncurses-dev bison flex libssl-dev libelf-dev bc rsync dwarves lz4 git;
+
 git clone https://github.com/markbirss/linux-6.1.141.git
 cd linux-6.1.141
 mv .git dot_git
